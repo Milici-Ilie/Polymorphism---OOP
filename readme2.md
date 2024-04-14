@@ -768,16 +768,25 @@ this.height = height;
 -String Inspection Methods [documentation IMAGES] (String Inspection) IMG
 
                         ❗❗❗❗ 🪕🪕[PRINT INFORMATIONS]🪕🪕 ❗❗❗
-                    
+
 -If you want to learn about String methods and manipulation STRING, check the Lessons [97-98-99]
 
 [StringFormatting.java]/[Main.java]
 
-   
 
-# 7. Polymorphism - OOP --- on GitHub: "Polymorphism - OOP"
+# 7. Polymorphism - OOP --- on GitHub: "Polymorphism - OOP" ---- INHERITANCE
 
-    ## ✅I. subtitlu
+    ## ✅I. -Composition
+             -INHERITANCE vs COMPOSITION [documentation IMAGES](INHERITANCE vs COMPOSITION) IMG ... VERY GOOD Example
+
+-În general, moștenirea este utilizată atunci când există o relație "este un" între două clase (de exemplu, un câine "este un" mamifer), în timp ce compoziția este utilizată atunci când există o relație "are un" (de exemplu, o mașină "are un" motor). Alegerea între moștenire și compoziție depinde de structura și logica specifică a aplicației și de relațiile definite între obiectele implicate.
+-Here we want to create a COMPUTER, and we need to put together multiple pieces 
+
+-Example diagram with INHERITANCE vs COMPOSITION [documentation IMAGES]/(INHERITANCE vs COMPOSITION diagram) IMG
+
+                                ❗❗❗❗ 🪕🪕[PRINT INFORMATIONS]🪕🪕 ❗❗❗
+
+[Main.java]/[Product.java]/[PersonalComputer.java]
 
     ## ✅II. subtitlu
 
