@@ -1,6 +1,7 @@
 public class Player {
 
     //💊💊 [ENCAPSULATION] 💊💊
+    //this is the wrong example, how NOT to do ENCAPSULATION
     public String fullName;
     public int health;
     public String weapon;

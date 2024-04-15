@@ -33,20 +33,26 @@ public class Main {
         ///////////////// 💊💊 [ENCAPSULATION] 💊💊 ////////////////////
         ///////////////// 💊💊  [PLAYER GAME] 💊💊 ////////////////////
 
-        Player player = new Player();
-        player.name = "Cristian";
-        player.health = 20;
-        player.weapon = "Legendary Sword";
+        //here we have an example of how NOT to do ENCAPSULATION 🔻🔻🔻
 
-        int damage = 10;
-        player.loseHealth(damage);
-        System.out.println("Remaining health = " + player.healthRemaining());
+//        Player player = new Player();
+//        player.name = "Cristian";
+//        player.health = 20;
+//        player.weapon = "Legendary Sword";
+//
+//        int damage = 10;
+//        player.loseHealth(damage);
+//        System.out.println("Remaining health = " + player.healthRemaining());
+//
+//        player.loseHealth(11);
+//        System.out.println("Remaining health = " + player.healthRemaining());
+//
+//        player.restoreHealth(50);
+//        System.out.println("Restoring life = " + player.health);
 
-        player.loseHealth(11);
-        System.out.println("Remaining health = " + player.healthRemaining());
-
-        player.restoreHealth(50);
-        System.out.println("Restoring life = " + player.health);
+        EnhancedPlayer milici = new EnhancedPlayer("Ilie", 200, "Sword");
+        System.out.println("Initial health is " + milici.healthRemaining());// if we check we can see that in the "EnhancedPlayer" file we changed the name for "healthPercentage", but here is only
+        // "health"... this is another future of ENCAPSULATION if we don't want to expose the name of other class
     }
 
 

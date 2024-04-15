@@ -795,12 +795,26 @@ this.height = height;
 [Main.java]/[SmartKitchen.java]/[]
 
     ## ✅III. -Encapsulation
+              -The method ENCAPSULATION always need to have attributes sett to "private"
+              -How to REFACTOR a class name: right-click on the name, refactor, rename
+
+1. We protect the members of the class, and some methods, from external access
+2. This prevents calling code from bypassing the rules and constraints, we've built into the class
+3. When we create a new instance, it's initialized with valid data
+4. But likewise, we're also making sure that there's no direct access to the fields
+5. That's why you want to always use encapsulation
+6. It's something that you should really get used to
 
 -How to create a player game with (health, damage and weapon)
+-With ENCAPSULATION we don't allow direct access to data on an object, can bypass checks and operations
+-It encourages an interdependency, or coupling, between the calling code and the class
+-If we are not using ENCAPSULATION when we change a field name, the entire code will break
+-The good code ENCAPSULATION  💊💊 [ENCAPSULATION] 💊💊 is in the [EnhancedPlayer.java] file
+
 
                                 ❗❗❗❗ 💊💊 [ENCAPSULATION] 💊💊 ❗❗❗
 
-[Main.java]/[Player.java]
+[Main.java]/[Player.java]/[EnhancedPlayer.java]
 
     ## ✅IV. subtitlu
 
