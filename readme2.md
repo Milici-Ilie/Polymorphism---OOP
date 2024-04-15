@@ -788,9 +788,19 @@ this.height = height;
 
 [Main.java]/[Product.java]/[PersonalComputer.java]
 
-    ## ✅II. subtitlu
+    ## ✅II. -CHALLENGE (INHERITANCE vs COMPOSITION) ----> Smart Kitchen
 
-    ## ✅III. subtitlu
+-How to connect multiple parts in a more complex sistem
+
+[Main.java]/[SmartKitchen.java]/[]
+
+    ## ✅III. -Encapsulation
+
+-How to create a player game with (health, damage and weapon)
+
+                                ❗❗❗❗ 💊💊 [ENCAPSULATION] 💊💊 ❗❗❗
+
+[Main.java]/[Player.java]
 
     ## ✅IV. subtitlu
 
