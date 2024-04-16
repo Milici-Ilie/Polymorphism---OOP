@@ -13,6 +13,16 @@ public class Polymorphism {
         //Metoda getSimpleName() face parte din clasa Class și este folosită pentru a obține numele simplu al clasei. Numele simplu este numele clasei fără pachetul său. Ambele metode sunt incluse
         // în Java și sunt disponibile pentru toate clasele.
     }
+
+    public static Polymorphism getMovie(String type, String title) {
+
+        return switch (type.toUpperCase().charAt(0)) {//here we are making the characters uppercase, and then we check the first letter (0), this is how we will know which category was selected
+            case 'A' -> new Adventure(title);
+            case 'C' -> new Comedy(title);
+            case 'S' -> new ScienceFiction(title);
+            default -> new Polymorphism(title);
+        };//🎣🎣 [POLYMORPHISM] 🎣🎣
+    }
 }
 
 class Adventure extends Polymorphism {

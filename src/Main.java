@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
 
@@ -62,10 +64,25 @@ public class Main {
         int pagesPrinted = printer.printPages(5);
         System.out.printf("Current Job Pages: %d, Printer Total: %d %n", pagesPrinted, printer.getPagesPrinted());
 
-        ///////////////////// POLYMORPHISM / MOVIE /////////////////////////
+        ///////////////////// POLYMORPHISM / MOVIE 🎣🎣 [POLYMORPHISM] 🎣🎣 /////////////////////////
 
-        Polymorphism theMovie = new Adventure("Stars Wars");
-        theMovie.watchMovie();
+//        Polymorphism theMovie = new Adventure("Stars Wars");
+//        Polymorphism theMovie = Polymorphism.getMovie("Science", "Star Wars");
+//        theMovie.watchMovie();
+
+        Scanner s = new Scanner(System.in);// here we are created a class "s" that will take data from the Input "Scanner" that the user typed in the INPUT section "System.in" with a keyboard
+        while (true) {
+            System.out.print("Enter Type (A for Adventure, C for Comedy," + "S for Science Fiction, or Q to quit): ");
+            String type = s.nextLine();
+            if ("Qq".contains(type)) {
+                break;
+            }
+            System.out.print("Enter Movie Title: ");
+            String title = s.nextLine();
+            Polymorphism movie = Polymorphism.getMovie(type, title);//🦞🦞 [CASTING-CLASSES] 🦞🦞
+            movie.watchMovie();//🦞🦞 [CASTING-CLASSES] 🦞🦞
+        }// this entire code will ask the user for a TYPE title and a Movie Title to display some information about it
+
     }
 
 }

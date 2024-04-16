@@ -821,7 +821,13 @@ this.height = height;
 [Printer.java]/[Main.java]                                        
 
     ## ✅V. -Polymorphism
+             -How to use Polymorphism to create a dynamic list of movies
             -How to use INHERITANCE to support POLYMORPHISM
+            -How to create a dynamic search selection
+            -How to select diferit categories depending on the first letter
+            -How to take data from the INPUT user and store/use this data [Scanner(System.in)][Main.java]
+            -How to create a complex dynamic searching computer for movies, the user enters a type and a title and the console will display those results
+            -Here we can create/add as many parts of movies as we want and the code from [Main.java] will remain the same, we can create new contents/categories and the code will automatically inherit those 
 
 -Polymorphism lets us write code to call a method, but at runtime, this method's behavior can be different, for different objects
 -The declared type has to have some kind of relationship to the runtime type, and INHERITANCE is one way to establish this relationship
@@ -830,7 +836,11 @@ this.height = height;
 
 [Main.java]/[Polymorphism.java]
 
-    ## ✅VI. subtitlu
+    ## ✅VI. -Casting with classes, and using Object and var references
+
+                                ❗❗❗❗ 🦞🦞 [CASTING-CLASSES] 🦞🦞 ❗❗❗
+
+[Main.java]/[Polymorphism.java]
 
     ## ✅VII. subtitlu
 
