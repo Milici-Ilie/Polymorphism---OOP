@@ -36,9 +36,9 @@ public class EnhancedPlayer {
         return healthPercentage;
     }
 
-    public void restoreHealth(int extraHealth){
+    public void restoreHealth(int extraHealth) {
         healthPercentage = healthPercentage + extraHealth;//if the player finds out a wat to restore his life
-        if(healthPercentage >100){
+        if (healthPercentage > 100) {
             System.out.println("Player restored to 100%");
             healthPercentage = 100;
         }//maximum life will be 100

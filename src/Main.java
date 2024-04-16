@@ -53,7 +53,19 @@ public class Main {
         EnhancedPlayer milici = new EnhancedPlayer("Ilie", 200, "Sword");
         System.out.println("Initial health is " + milici.healthRemaining());// if we check we can see that in the "EnhancedPlayer" file we changed the name for "healthPercentage", but here is only
         // "health"... this is another future of ENCAPSULATION if we don't want to expose the name of other class
-    }
 
+        ///////////////////// PRINTER CHALLENGE /////////////////////////
+
+        Printer printer = new Printer(50, false);
+        System.out.println("initial page count = " + printer.getPagesPrinted());
+
+        int pagesPrinted = printer.printPages(5);
+        System.out.printf("Current Job Pages: %d, Printer Total: %d %n", pagesPrinted, printer.getPagesPrinted());
+
+        ///////////////////// POLYMORPHISM / MOVIE /////////////////////////
+
+        Polymorphism theMovie = new Adventure("Stars Wars");
+        theMovie.watchMovie();
+    }
 
 }

@@ -816,9 +816,19 @@ this.height = height;
 
 [Main.java]/[Player.java]/[EnhancedPlayer.java]
 
-    ## ✅IV. subtitlu
+    ## ✅IV. -CHALLENGE => ENCAPSULATION
 
-    ## ✅V. subtitlu
+[Printer.java]/[Main.java]                                        
+
+    ## ✅V. -Polymorphism
+            -How to use INHERITANCE to support POLYMORPHISM
+
+-Polymorphism lets us write code to call a method, but at runtime, this method's behavior can be different, for different objects
+-The declared type has to have some kind of relationship to the runtime type, and INHERITANCE is one way to establish this relationship
+
+                                ❗❗❗❗ 🎣🎣 [POLYMORPHISM] 🎣🎣 ❗❗❗
+
+[Main.java]/[Polymorphism.java]
 
     ## ✅VI. subtitlu
 
